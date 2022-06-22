@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mailer'
 ]
 
 MIDDLEWARE = [
@@ -134,10 +135,11 @@ LOGOUT_REDIRECT_URL='home'
 #Telling django to use this mdel instead of the default one
 AUTH_USER_MODEL = "users.CustomUser" 
 #forwarding emails to the console
-EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 #static file configuration
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
 
-
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL='furman@test.com'
 
