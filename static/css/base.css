@@ -1,0 +1,82 @@
+.backgroundimage
+{
+    height: 100vh;
+    width:100%;
+    background-image: url("/static/img/homebackground.jpeg");
+    background-position: center;
+    background-size: cover;
+   
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar-brand
+{
+  color: black;
+}
+
+.homepagecontent h1
+{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.homepagecontent p
+{
+    font-size: 20px;
+}
+.homepagecontent
+{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.homepagecontent .btn
+{
+    display: inline-block;
+    background: linear-gradient(45deg, #d2ceda,#FF69B4);
+    background: radius 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28 , 68 , 0.15 );
+}
+.feature-img
+{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    border-radius: 50%;
+}
+
+
+.loginbackgroundimage
+{
+    height: 100vh;
+    width:100%;
+    background-image: url("/static/img/loginbackground.jpeg");
+    background-position: center;
+    background-size: cover;
+   
+    box-sizing: border-box;
+    position: relative;
+}
+
+.loginanimation
+{
+width:400px;
+height: 210px;
+border-radius: 50%;
+}
+ .btn
+{
+    display: inline-block;
+    background: linear-gradient(45deg, #d2ceda,#FF69B4);
+    background: radius 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28 , 68 , 0.15 );
+}
